@@ -1,0 +1,48 @@
+.section.about {
+    padding-top: 0;
+}
+
+.text-section {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.about-pictures {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.about-pictures>li:not(:first-child) {
+    margin-left: 30px;
+}
+
+.label {
+    position: relative;
+    
+
+}
+.label-studio {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: rgba(47, 48, 58, 0.8);
+}
+
+.label-studio-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-btn-accent);
+}
