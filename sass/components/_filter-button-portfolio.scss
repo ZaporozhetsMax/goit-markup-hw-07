@@ -2,15 +2,18 @@
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
+&>li:nth-child(n + 2) {
+    margin-left: 8px;
+}    
 }
 
-.main-list-btn>li:nth-child(n + 2) {
-    margin-left: 8px;
+.main-link-btn {
+    list-style-type: none;
 }
+
 
 .button {
     font-family: inherit;
-    /* font-style: normal; */
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -34,8 +37,3 @@
 }       
 }
 
-
-
-.main-link-btn {
-    list-style-type: none;
-}

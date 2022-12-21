@@ -1,10 +1,9 @@
 .benefits {
     list-style-type: none;
     display: flex;
-}
-
-.benefits>li:not(:first-child) {
+    &>li:not(:first-child) {
     margin-left: 30px;
+}
 }
 
 .benefits-icon {
@@ -17,7 +16,6 @@
     background: var(--background-btn);
     border-radius: 4px;
 }
-
 
 .benefits-text {
     font-weight: 700;
