@@ -6,7 +6,7 @@
 }
 }
 
-.benefits-icon {
+.benefits__icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@
     border-radius: 4px;
 }
 
-.benefits-text {
+.benefits__text {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -25,7 +25,7 @@
     margin-bottom: 10px;
 }
 
-.benefits-subtext {
+.benefits__subtext {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;

@@ -261,8 +261,8 @@ header .container {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--text-btn-accent);
+  background: var(--accent-color);
   margin: 0 auto;
   padding: 10px 32px;
   border: none;

@@ -27,27 +27,29 @@
     <!-- header -->
     <header class="header">
       <div class="container">
-        <a class="logo-header" href="">Web<span class="header-studio">Studio</span></a>
-        <nav>
-          <ul class="list">
-            <li><a href="" class="link current" target="_self">Студія</a></li>
-            <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-            <li><a href="" class="link">Контакти</a></li>
+        <a class="logo header__logo" href=""
+          >Web<span class="logo__text header__logo--color">Studio</span></a
+        >
+        <nav class="navigation header__navigation">
+          <ul class="navigation__list">
+            <li><a href="" class="navigation__link current" target="_self">Студія</a></li>
+            <li><a href="./portfolio.html" class="navigation__link">Портфоліо</a></li>
+            <li><a href="" class="navigation__link">Контакти</a></li>
           </ul>
         </nav>
 
-        <ul class="header-adress">
+        <ul class="connection">
           <li>
-            <a href="mailto:info@devstudio.com" class="header-mail">
-              <svg width="16" height="12" class="header-mail-icon">
+            <a href="mailto:info@devstudio.com" class="connection__mail">
+              <svg width="16" height="12" class="connection__icon">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="tel:+380961111111" class="header-phone"
-              ><svg width="10" height="16" class="header-phone-icon">
+            <a href="tel:+380961111111" class="connection__phone"
+              ><svg width="10" height="16" class="connection__icon">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -59,78 +61,80 @@
     <main>
       <section class="solution">
         <div class="container">
-          <h1 class="solution-text">Ефективні рішення для вашого бізнесу</h1>
-          <button class="button-studio" type="button" data-modal-open>Замовити послугу</button>
+          <h1 class="solution__text">Ефективні рішення для вашого бізнесу</h1>
+          <button class="solution__button button-studio" type="button" data-modal-open>
+            Замовити послугу
+          </button>
         </div>
       </section>
       <section class="section">
         <div class="container">
           <ul class="benefits">
             <li>
-              <div class="benefits-icon">
-                <svg width="70" height="70" class="benefits-icon-item">
+              <div class="benefits__icon benefits-icon">
+                <svg width="70" height="70" class="benefits__icon--item">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="benefits-text">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="benefits-subtext">
+              <h3 class="benefits__text">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="benefits__subtext">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
             <li>
-              <div class="benefits-icon">
-                <svg width="70" height="70" class="benefits-icon-item">
+              <div class="benefits__icon">
+                <svg width="70" height="70" class="benefits__icon--item">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="benefits-text">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="benefits-subtext">
+              <h3 class="benefits__text">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="benefits__subtext">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
 
             <li>
-              <div class="benefits-icon">
-                <svg width="70" height="70" class="benefits-icon-item">
+              <div class="benefits__icon">
+                <svg width="70" height="70" class="benefits__icon--item">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="benefits-text">ПЛАНУВАННЯ</h3>
-              <p class="benefits-subtext">
+              <h3 class="benefits__text">ПЛАНУВАННЯ</h3>
+              <p class="benefits__subtext">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li>
-              <div class="benefits-icon">
-                <svg width="70" height="70" class="benefits-icon-item">
+              <div class="benefits__icon">
+                <svg width="70" height="70" class="benefits__icon--item">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="benefits-text">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="benefits-subtext">
+              <h3 class="benefits__text">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="benefits__subtext">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
               </p>
             </li>
           </ul>
         </div>
       </section>
-      <section class="section about">
+      <section class="about">
         <div class="container">
-          <h2 class="text-section">Чим ми займаємося</h2>
-          <ul class="about-pictures">
-            <li class="label">
+          <h2 class="about__text text-section">Чим ми займаємося</h2>
+          <ul class="solution-pictures about-pictures">
+            <li class="solution-pictures__label label">
               <img src="./images/box-1.jpg" alt="верстка" width="370" height="294" />
               <div class="label-studio">
                 <h3 class="label-studio-text">Десктопні додатки</h3>
               </div>
             </li>
-            <li class="label">
+            <li class="solution-pictures__label label">
               <img src="./images/box-2.jpg" alt="оформлення" width="370" height="294" />
               <div class="label-studio">
                 <h3 class="label-studio-text">Мобільні додатки</h3>
               </div>
             </li>
-            <li class="label">
+            <li class="solution-pictures__label label">
               <img src="./images/box-3.jpg" alt="результат" width="370" height="294" />
               <div class="label-studio">
                 <h3 class="label-studio-text">Дизайнерські рішення</h3>

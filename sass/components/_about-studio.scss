@@ -1,8 +1,8 @@
-.section.about {
+.about {
     padding-top: 0;
 }
 
-.text-section {
+.about__text {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -14,12 +14,12 @@
 .about-pictures {
     list-style-type: none;
     display: flex;
-    
+   &>li:not(:first-child) {
+    margin-left: 30px;
+} 
 }
 
-.about-pictures>li:not(:first-child) {
-    margin-left: 30px;
-}
+
 
 .label {
     position: relative;
