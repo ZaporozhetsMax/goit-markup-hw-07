@@ -1,5 +1,6 @@
 .about {
     padding-top: 0;
+    padding-bottom: 94px;
 }
 
 .about__text {
@@ -11,7 +12,7 @@
     text-align: center;
 }
 
-.about-pictures {
+.about__application {
     list-style-type: none;
     display: flex;
    &>li:not(:first-child) {
@@ -19,17 +20,15 @@
 } 
 }
 
-
-
-.label {
-    position: relative;
-    
-
+.application__pictures {
+    position: relative;    
 }
-.label-studio {
+
+.application__label {
     position: absolute;
     display: flex;
-    bottom: 0;
+    // bottom: 0;
+    bottom: 0px;
     height: 70px;
     width: 100%;
     align-items: center;
@@ -37,7 +36,7 @@
     background: rgba(47, 48, 58, 0.8);
 }
 
-.label-studio-text {
+.application__text {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
