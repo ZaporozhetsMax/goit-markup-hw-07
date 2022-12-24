@@ -732,13 +732,13 @@ footer {
   fill: var(--text-btn-accent);
 }
 
-.img-overley {
+.poster__wrapper {
   position: relative;
   overflow: hidden;
   transition: transform 250px cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.overley {
+.overlay {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -755,21 +755,6 @@ footer {
   line-height: 1.56;
   letter-spacing: 0.03em;
   color: var(--text-btn-accent);
-}
-
-.main-link-lead {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  margin-bottom: 4px;
-}
-
-.main-link-text {
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.03em;
-  color: var(--second-color);
 }
 
 .backdrop {
