@@ -150,6 +150,14 @@ footer {
     line-height: 1.88;
     letter-spacing: 0.06em;
     color: var(--text-btn-accent);
+    &:hover,
+    &:focus {
+            color: var(--accent-color);
+            background: var(--text-btn-accent);
+            // cursor: pointer;
+            border-radius: 4px;}
+    &:hover .footer-mailing__icon,
+    &:focus .footer-mailing__icon{fill: var(--accent-color);}
 }
 
 
@@ -157,4 +165,5 @@ footer {
     position: absolute;
     top: 13px;
     right: 28px;
+    fill: var(--text-btn-accent);
 }
