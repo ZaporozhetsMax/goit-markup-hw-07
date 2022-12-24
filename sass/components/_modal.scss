@@ -22,7 +22,7 @@
     transition: transform 300ms linear;
 }
 
-.label-text {
+.modal__label-text {
     display: block;
     font-family: 'Roboto';
     font-style: normal;
@@ -34,7 +34,7 @@
     width: 100%;
 }
 
-.modal-input-text {
+.modal__input-text {
     padding-left: 42px;
     width: 100%;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -70,7 +70,7 @@ textarea {
    
 }
 
-.modal-input-wrap textarea {
+.modal__input textarea {
     display: block;
     margin-bottom: 20px;
     height: 120px;
@@ -165,13 +165,13 @@ textarea {
     cursor: pointer;
 }
 
-.modal-input-wrap {
+.modal__input {
     margin-top: 4px;
     margin-bottom: 10px;
     position: relative;
 }
 
-.modal-person-icon {
+.modal__input-icon {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -192,7 +192,7 @@ textarea {
 }
 
 /* ---кнопка закриття модального вікна--- */
-.btn-close-modal {
+.modal__btn--close {
     padding: 0;
     position: absolute;
     display: flex;
@@ -206,15 +206,15 @@ textarea {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
-    &:hover .modal-close-icon,
-    &:focus .modal-close-icon {
+    &:hover .modal__icon-close,
+    &:focus .modal__icon-close {
     fill: var(--accent-color);
 }    
 }
 
 
 
-.modal-close-icon {
+.modal__icon-close {
     display: flex;
     justify-content: center;
     align-items: center;

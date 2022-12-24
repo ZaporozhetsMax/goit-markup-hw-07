@@ -4,12 +4,9 @@
 }
 
 .team__text {
+    @include font(700,36,1.17,0.03);
     margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .hero {
@@ -33,18 +30,13 @@
 }
 
 .hero__name {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+    @include font(500, 16, 1.19, 0.03);
     margin-bottom: 10px;
     text-align: center;
 }
 
 .hero__position {
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+    @include font(400, 16, 1.19, 0.03);
     color: var(--second-color);
     margin-bottom: 16px;
     text-align: center;

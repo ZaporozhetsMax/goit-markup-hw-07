@@ -1,9 +1,6 @@
 .section__text {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
+    @include font(700,36,1.17,0.03);
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--primery-color);
     margin-bottom: 50px;
 }

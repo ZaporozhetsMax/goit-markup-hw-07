@@ -4,10 +4,7 @@
 }
 
 .about__text {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+    @include font(700,36,1.17,0.03);
     margin-bottom: 50px;
     text-align: center;
 }
@@ -27,8 +24,7 @@
 .application__label {
     position: absolute;
     display: flex;
-    // bottom: 0;
-    bottom: 0px;
+    bottom: 0;
     height: 70px;
     width: 100%;
     align-items: center;
@@ -37,11 +33,8 @@
 }
 
 .application__text {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    @include font(700,14,1.14,0.03);
     text-align: center;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--text-btn-accent);
 }

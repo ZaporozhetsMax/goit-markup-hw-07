@@ -18,17 +18,12 @@
 }
 
 .benefits__text {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    @include font(700,14,1.14,0.03);
     margin-bottom: 10px;
 }
 
 .benefits__subtext {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    @include font(null,14,1.71,0.03);
     color: var(--second-color);
     max-width: 270px;
 }
