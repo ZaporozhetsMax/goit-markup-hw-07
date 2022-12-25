@@ -1,11 +1,14 @@
 .benefits {
     list-style-type: none;
-    display: flex;
-    &>li:not(:first-child) {
-    margin-left: 30px;
-}
+    display: flex;    
 }
 
+
+.section__benefits{
+ &>li:not(:first-child) {
+    margin-left: 30px;   
+}
+}
 .benefits__icon {
     display: flex;
     justify-content: center;
