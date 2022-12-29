@@ -17,4 +17,13 @@ img {
   padding: 0px 15px;
   margin: 0px auto;
   /* border: 2px solid tomato; */
+  @media screen and (min-width:480px){
+      width: 450px;  
+  }
+  @media  screen and(min-width:481px), screen and(max-width:768px){
+  width:738px
+   }
+    @media screen and(min-width:739px) {
+      width: 1170px;
+    }
 }

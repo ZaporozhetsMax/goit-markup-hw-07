@@ -161,6 +161,21 @@ img {
   margin: 0px auto;
   /* border: 2px solid tomato; */
 }
+@media screen and (min-width: 480px) {
+  .container {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 481px), screen and (max-width: 768px) {
+  .container {
+    width: 738px;
+  }
+}
+@media screen and (min-width: 739px) {
+  .container {
+    width: 1170px;
+  }
+}
 
 .logo {
   display: block;
